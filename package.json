@@ -1,0 +1,43 @@
+{
+  "name": "commons-source",
+  "description": "Provide common service of individual/firm info",
+  "version": "1.0.0",
+  "keywords": [
+    "commons-source",
+    "individual",
+    "firm"
+  ],
+  "maintainers": [
+    {
+      "name": "Wang, Hongmeng",
+      "email": "wanghongmeng@fero.com.cn"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Wang, Hongmeng",
+      "web": "http://fero.com.cn/"
+    }
+  ],
+  "bugs": {
+    "mail": "wanghongmeng@fero.com.cn",
+    "web": "http://fero.com.cn/"
+  },
+  "license": "ISC",
+  "repository": [
+    {
+      "type": "git",
+      "url": "http://github.com/BYVoid/mypackage.git"
+    }
+  ],
+  "dependencies": {
+    "bunyan": "^1.8.1",
+    "dtrace-provider": "^0.6.0",
+    "minimist": "^1.2.0",
+    "moment": "^2.14.1",
+    "mysql": "^2.11.1",
+    "nconf": "^0.8.4",
+    "restify": "^4.1.1",
+    "sequelize": "^3.23.4"
+  }
+}
