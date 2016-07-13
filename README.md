@@ -3,7 +3,7 @@ This is a test for nodejs backend Service
 
 ##Module
 
-* npm
+* npm 3.10.1
     * bunyan: 1.8.1
     * dtrace-provider: 0.6.0
     * minimist: 1.2.0
@@ -27,5 +27,5 @@ This is a test for nodejs backend Service
 
 ##PM2 Start
 ```javascript
-  pm2 start index.js -i 4 --watch --name='commons-source' -- --profiles test --logPath /logs/nodejs/commons-source/stdout.log --port 8080
+  pm2 start index.js -i 4 --watch --name='nodejs-service' -- --profiles test --logPath /logs/nodejs/nodejs-service/stdout.log --port 8080
 ```
