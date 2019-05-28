@@ -8,20 +8,13 @@
     "firm"
   ],
   "maintainers": [
-    {
-      "name": "Wang, Hongmeng",
-      "email": "wanghongmeng@fero.com.cn"
-    }
+    "Wang, Hongmeng <wanghongmeng@fero.com.cn>"
   ],
   "contributors": [
-    {
-      "name": "Wang, Hongmeng",
-      "web": "http://fero.com.cn/"
-    }
+    "Wang, Hongmeng (http://fero.com.cn/)"
   ],
   "bugs": {
-    "mail": "wanghongmeng@fero.com.cn",
-    "web": "http://fero.com.cn/"
+    "url": "http://fero.com.cn/"
   },
   "license": "ISC",
   "repository": [
@@ -39,5 +32,10 @@
     "nconf": "^0.8.4",
     "restify": "^4.1.1",
     "sequelize": "^3.23.4"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vcgato29@gmail.com"
 }
